@@ -36,40 +36,40 @@ LLM_smart_assistance/
 
  1. Ensure Python 3.11 is Installed
 
-This project requires **Python 3.11** due to compatibility issues with some libraries.
+   This project requires **Python 3.11** due to compatibility issues with some libraries.
 
-- Download Python 3.11:  
-  👉 [https://www.python.org/downloads/release/python-3110/](https://www.python.org/downloads/release/python-3110/)
+  - Download Python 3.11:  
+    👉 [https://www.python.org/downloads/release/python-3110/](https://www.python.org/downloads/release/python-3110/)
 
-- During installation:
-  - ✅ Check **"Add Python to PATH"**
-  - ✅ Enable `pip`
+  - During installation:
+    - ✅ Check **"Add Python to PATH"**
+    - ✅ Enable `pip`
 
  2. Create and Activate a Virtual Environment (Recommended)
 
-python3.11 -m venv venv
+   python3.11 -m venv venv
 
-venv\Scripts\activate       # On Windows
+   venv\Scripts\activate       # On Windows
 
-source venv/bin/activate    # On Mac/Linux
+   source venv/bin/activate    # On Mac/Linux
 
 3. Install required packages
 
-pip install google-generativeai googletrans==4.0.0-rc1
+   pip install google-generativeai googletrans==4.0.0-rc1
 
 4. Create a .env file in your project folder and add your API key
-GEMINI_API_KEY=your_actual_gemini_api_key_here
+   GEMINI_API_KEY=your_actual_gemini_api_key_here
 
 5. Run the assistant for each level
 
-✅ Level 1
-python chatbot.py
+  ✅ Level 1
+  python chatbot.py
+  
+  ✅ Level 2
+  python chatbot_with_tool.py
 
-✅ Level 2
-python chatbot_with_tool.py
-
-✅ Level 3
-python agent_chatbot.py
+  ✅ Level 3
+  python agent_chatbot.py
 
 ## 🛠️ Tech Stack
 
