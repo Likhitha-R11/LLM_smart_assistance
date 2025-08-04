@@ -14,21 +14,38 @@ A Gemini-powered intelligent assistant that can understand natural language quer
 
 ## Repository Structure
 LLM_smart_assistance/
+
 │
+
 ├── agent_chatbot.py         # Level 3: Multi-tool assistant (math + translation)
+
 ├── chatbot.py               # Level 1: Basic Gemini chatbot
+
+
 ├── chatbot_with_tool.py     # Level 2: Gemini chatbot with calculator
+
 │
+
 ├── calculator_tool.py       # Math expression evaluator
+
 ├── translator_tool.py       # Translator using googletrans
+
 │
+
 ├── level2_log.txt           # Interaction log for Level 2
+
 ├── level3_log.txt           # Interaction log for Level 3
+
 ├── interaction_logs/        # Folder containing Level 1 interactions (if separate)
+
 │
+
 ├── .env                     # (Not committed) Stores your API key securely
+
 ├── .gitignore               # Specifies files/folders to ignore in Git
+
 ├── README.md                # Project overview and instructions
+
 └── requirements.txt         # (Optional) List of dependencies
 
 
@@ -83,7 +100,8 @@ LLM_smart_assistance/
 ### 👩‍💻 Author
 
 Ragam Likhitha  
-[🔗 LinkedIn](https://www.linkedin.com/in/ragam-likhitha-2b84462bb)
+[🔗 LinkedIn] 
+(https://www.linkedin.com/in/ragam-likhitha-2b84462bb)
 
 
 
