@@ -14,9 +14,7 @@ A Gemini-powered intelligent assistant that can understand natural language quer
 
 ## Repository Structure
 LLM_smart_assistance/
-
 │
-
 ├── agent_chatbot.py         # Level 3: Multi-tool assistant (math + translation)
 
 ├── chatbot.py               # Level 1: Basic Gemini chatbot
@@ -45,7 +43,6 @@ LLM_smart_assistance/
 ├── .gitignore               # Specifies files/folders to ignore in Git
 
 ├── README.md                # Project overview and instructions
-
 └── requirements.txt         # (Optional) List of dependencies
 
 
