@@ -21,7 +21,6 @@ LLM_smart_assistance/
 
 ├── chatbot.py               # Level 1: Basic Gemini chatbot
 
-
 ├── chatbot_with_tool.py     # Level 2: Gemini chatbot with calculator
 
 │
@@ -32,11 +31,11 @@ LLM_smart_assistance/
 
 │
 
+├── interaction_logs/        # Folder containing Level 1 interactions (if separate)
+
 ├── level2_log.txt           # Interaction log for Level 2
 
 ├── level3_log.txt           # Interaction log for Level 3
-
-├── interaction_logs/        # Folder containing Level 1 interactions (if separate)
 
 │
 
@@ -44,9 +43,7 @@ LLM_smart_assistance/
 
 ├── .gitignore               # Specifies files/folders to ignore in Git
 
-├── README.md                # Project overview and instructions       
-
-└── requirements.txt         # (Optional) List of dependencies
+└── README.md                # Project overview and instructions       
 
 
 ## 🚀 How to Run
