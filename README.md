@@ -51,13 +51,15 @@ python3.11 -m venv venv
 venv\Scripts\activate       # On Windows
 source venv/bin/activate    # On Mac/Linux
 
-3. Install required packages:
+### 3. Install required packages.
 
    ```bash
    pip install google-generativeai googletrans==4.0.0-rc1
-4.Create a .env file in your project folder and add your API key:
+
+### 4. Create a .env file in your project folder and add your API key
   GEMINI_API_KEY=your_actual_gemini_api_key_here
-5.Run the assistant for each level:
+
+### 5.Run the assistant for each level:
 
 - ✅ Level 1:
   python chatbot.py
